@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1028348976250",
+    "firebase_url": "https://fir-notify-dc125.firebaseio.com",
+    "project_id": "fir-notify-dc125",
+    "storage_bucket": "fir-notify-dc125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028348976250:android:a099ec5c8af34329",
+        "android_client_info": {
+          "package_name": "com.alexanderlima.firebasenotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028348976250-nkbdkmg47u71rqga3m53ojhkpd7sbjoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-1U1h28nvsvHCbWiQW9DnVTqssMol_cM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "firebase_notify",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

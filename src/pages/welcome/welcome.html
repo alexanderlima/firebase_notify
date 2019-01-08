@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Tópicos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list radio-group [(ngModel)]="area">
+
+      <ion-list-header>
+        Área
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Marketing</ion-label>
+        <ion-radio value="marketing" (click)="setSubscription()"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>T.I</ion-label>
+        <ion-radio value="ti" (click)="setSubscription()"></ion-radio>
+      </ion-item>
+      
+    </ion-list>
+    <ion-list radio-group [(ngModel)]="cidade">
+
+      <ion-list-header>
+        Cidade
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Rio de Janeiro</ion-label>
+        <ion-radio value="rj" (click)="setSubscription()"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>São Paulo</ion-label>
+        <ion-radio value="sp" (click)="setSubscription()"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Belo Horizonte</ion-label>
+        <ion-radio value="bh" (click)="setSubscription()"></ion-radio>
+      </ion-item>
+      
+    </ion-list>
+    <ion-list radio-group [(ngModel)]="sexo">
+
+      <ion-list-header>
+        Sexo
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Masculino</ion-label>
+        <ion-radio value="homens" (click)="setSubscription()"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Feminino</ion-label>
+        <ion-radio value="mulheres" (click)="setSubscription()"></ion-radio>
+      </ion-item>     
+    </ion-list>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <button ion-button icon-end color="danger" block (click)="exitApp()">Sair<ion-icon name="exit"></ion-icon></button>
+  </ion-toolbar>
+</ion-footer>
